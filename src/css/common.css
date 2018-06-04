@@ -1,0 +1,139 @@
+#m_header {
+  border-bottom: 1px solid #ccc;
+  background: #F2F2F2;
+  font-size: 12px;
+}
+
+#m_header .container .home {
+  display: block;
+  line-height: 32px;
+  padding: 0 20px;
+  color: #333333;
+}
+
+#m_header .container .header_top li {
+  float: left;
+  line-height: 32px;
+}
+
+#m_header .container .header_top li a {
+  color: #666666;
+  border-right: 1px solid #ccc;
+  padding: 0 10px;
+}
+
+#m_footer {
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+#m_footer .helper {
+  border-bottom: 2px solid #FF5777;
+}
+
+#m_footer .helper .helper_mod {
+  float: left;
+  height: 100px;
+  width: 25%;
+}
+
+#m_footer .helper .helper_mod div {
+  padding-left: 20px;
+  padding-left: 20px;
+}
+
+#m_footer .helper .helper_mod h4 {
+  font-size: 14px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  height: 25px;
+  line-height: 25px;
+  overflow: hidden;
+}
+
+#m_footer .helper .helper_mod li {
+  float: left;
+  display: inline-block;
+  width: 100px;
+  height: 20px;
+  line-height: 20px;
+  color: #999;
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+#m_footer .helper .helper_mod li:hover {
+  color: #f57;
+}
+
+#m_footer .other_link {
+  margin-bottom: 8px;
+  line-height: 27px;
+  border-bottom: 1px solid #ddd;
+}
+
+#m_footer .other_link p {
+  margin: 5px 0;
+}
+
+#m_footer .other_link p a {
+  color: #666;
+  font-size: 12px;
+  padding: 0 10px;
+  border-right: 1px solid #ccc;
+}
+
+#m_footer .other_link p a:hover {
+  color: #f57;
+}
+
+#m_footer .other_link {
+  margin-bottom: 8px;
+  line-height: 27px;
+  border-bottom: 1px solid #ddd;
+}
+
+#m_footer .other_link p {
+  margin: 5px 0;
+}
+
+#m_footer .other_link p a {
+  color: #666;
+  font-size: 12px;
+  padding: 0 10px;
+  border-right: 1px solid #ccc;
+}
+
+#m_footer .other_link p a:hover {
+  color: #f57;
+}
+
+#m_footer .mgj_info {
+  min-height: 20px;
+  margin-top: 10px;
+}
+
+#m_footer .mgj_info li {
+  float: left;
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  padding-right: 10px;
+  color: #999;
+}
+
+#m_footer .mgj_info li a {
+  font-size: 12px;
+  color: #666;
+}
+
+#m_footer .mgj_info li a:hover {
+  color: #f57;
+}
+
+#m_footer .copyright {
+  color: #999;
+  font-size: 12px;
+  line-height: 24px;
+}

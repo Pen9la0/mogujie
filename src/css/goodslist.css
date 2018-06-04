@@ -1,0 +1,28 @@
+.goods_page {
+  border-top: 2px solid #f07;
+}
+
+.goods_page ul {
+  float: right;
+  padding-top: 20px;
+}
+
+.goods_page .li_color {
+  background: #f07;
+  color: #fff;
+}
+
+.goods_page li {
+  float: left;
+  color: #222;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  margin: 0 2px;
+  padding: 0 13px;
+  display: block;
+  height: 38px;
+  line-height: 38px;
+}

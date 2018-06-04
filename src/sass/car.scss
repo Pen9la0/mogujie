@@ -1,0 +1,116 @@
+.m_car_header{
+    height: 72px;
+    border-bottom: 1px solid #ddd;
+    background: #f2f2f2;
+    .m_car_logo{
+        height: 52px;
+        background: url(https://s10.mogucdn.com/mlcdn/c45406/180131_1i8a4056f4145939j5gk52544c70a_207x51.png) no-repeat;
+        width: 225px;
+        height: 48px;
+        margin-top: 14px;
+    }
+}
+.car_goodslist{
+    padding-top:20px;
+    width:100%;
+    table{
+        width:100%;
+        .car_th_all{
+            width: 65px;
+            padding-left: 24px;
+        }
+        .car_td_checkbox{
+            padding: 15px 0 15px 24px;
+
+        }
+        .car_td_name{
+            padding: 15px 10px 15px 0;
+            
+            img{
+                width: 80px;
+                height: 80px;
+                float:left;
+            }
+            span{
+                width:500px;
+                float:left;
+                display: inline-block;
+                margin: 0 20px;
+                line-height: 20px;
+                font-size: 14px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                height: 80px;
+            }
+        }
+        .car_td_num{
+            div{
+
+                input{
+                    float:left;
+                    width: 43px;
+                    height: 12px;
+                    line-height: 12px;
+                    padding: 6px 0 7px;
+                    border: 1px solid #ddd;
+                    background: #fff;
+                    top: 0;
+                    left: 26px;
+                    text-align: center;
+                    color: #333;
+                }
+                .num_reduce{
+                    float:left;
+                    display:inline-block;
+                    width: 27px;
+                    height: 27px;
+                    background: url(http://s21.mogujie.com/pic/150511/1blhwf_ie2tiobvhfrdkojrgezdambqhayde_360x900.png) 0 -180px no-repeat;
+                }
+                .num_add{
+                    float:left;
+                    display:inline-block;
+                    background:url(http://s21.mogujie.com/pic/150511/1blhwf_ie2tiobvhfrdkojrgezdambqhayde_360x900.png) 0 -140px no-repeat;
+                    width: 27px;
+                    height: 27px;
+                }
+
+            }
+            
+        }
+        .car_td_total{
+            color:red;
+            font-size: 16px;
+        }
+        td,th{
+            padding: 15px 12px;
+            text-align: center;
+            font-size: 12px;
+            color:#333;
+    
+        }
+        td{
+            background: #fff6f6;
+        }
+        .nbtd{
+            .car_box{
+                float:right;
+            }
+            p,span,div{
+                float:left;
+                line-height: 35px;
+            }
+            .car_num{
+                color: #ff5777;
+            }
+            .car_total{
+                padding: 0 12px 0 8px;
+                font-size: 26px;
+                color: #ff5777;
+            }
+        }
+        tr{
+            border: 1px solid #e5e5e5;
+        }
+    }
+}

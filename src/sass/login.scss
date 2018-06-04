@@ -1,0 +1,101 @@
+#header{
+    position:relative;
+    padding:20px 0;
+    background: #fff;
+    a{
+        background: url(https://s10.mogucdn.com/p1/160408/upload_ie4gkmjvgvqtiytdg4zdambqgiyde_220x52.png) no-repeat;
+        display: inline-block;
+        width: 220px;
+        height: 52px;
+    }
+    span{
+        position: absolute;
+        top: 50%;
+        transform:translate(0,-50%);
+        display: inline-block;
+        height: 28px;
+        width: 861px;
+        margin-left: 20px;
+        background-color: #ffefef;
+        border: 1px solid #ffc0cc;
+        text-align: center;
+        line-height: 28px;
+        font-size: 11px;
+        color: #666;
+    }
+}
+#banner{
+    background: url(http://s17.mogucdn.com/p2/170105/upload_541i9di2b3icf9j13f24e0bg7b1i6_1920x600.png) no-repeat center center;
+    height: 600px;
+    position:relative;
+    .login{
+            background-color: #ffeceb;
+            margin-top: 80px;
+            position:absolute;
+            right:70px;
+            padding: 0 0 30px 44px;
+            width: 356px;
+            opacity: 0.9;
+            .login_t{
+                height: 70px;
+                margin-left: -38px;
+                span{
+                    display: inline-block;
+                    width: 50%;
+                    border-bottom:1px solid #ccc;
+                    a{
+                        display:block;
+                        color: #000;
+                        height: 41px;
+                        margin: 10px auto 0;
+                        line-height: 42px;
+                        text-align: center;
+                        font-size: 14px;
+                        font-weight: 700;
+                        // 登录下划线
+                        width: 119px;
+                        margin: 10px auto 0;
+                        border-bottom: 2px solid #ffeceb;
+                    }
+                    
+                }
+                span:nth-child(1) a{
+                    color:#ff4066;
+                    border-bottom: 2px solid #ff4066;
+                }
+            }
+            .login_b{
+                .reg_info{
+                    display:none;
+                }
+                .login_type{
+                    padding-top:6px;
+                }
+                input{
+                    height: 40px;
+                    width: 300px;
+                    background: none;
+                    border: 1px solid #ccc;
+                    padding: 0 6px;
+                    margin-bottom:15px;
+                }
+                button{
+                    display: block;
+                    border: none;
+                    width: 314px;
+                    height: 40px;
+                    background: #ff5777;
+                    border-radius: 2px;
+                    cursor: pointer;
+                    color: #fff;
+                    margin-top:10px;
+                }
+                a,span{margin-right: 47px;font-size: 12px;}
+                span{color:#333;}
+                img{margin-right:10px;}
+                a{color:#959595;padding-top:20px;}
+            }
+    }
+
+}
+html,body{width: 100%;}
